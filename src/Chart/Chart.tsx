@@ -1,5 +1,8 @@
 import HC from "highcharts";
 import * as HM from "highcharts/highmaps";
+import "highcharts/modules/marker-clusters";
+
+
 import HighchartsReact from "highcharts-react-official";
 
 const getModule = (type: 'pie' | 'map' | 'bar' | 'h-bar') => {

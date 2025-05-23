@@ -10,7 +10,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@rollup/plugin-dsv": "^3.0.5",
+    "highcharts": "^12.2.0",
     "highcharts-react-official": "^3.2.2",
+    "papaparse": "^5.5.3",
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
   },
